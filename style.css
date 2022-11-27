@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background-color: rgba(30, 210, 135, 0.253);
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+}
+
+.calculadora {
+    background-color: rgb(62, 62, 170);
+    border-radius: 15px;
+    padding: 20px;
+    width: 600px;
+    color: whitesmoke;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.521);
+}
+
+header {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.dados_paciente {
+    margin-top: 40px;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.paciente {
+    margin-bottom: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.paciente label {
+    font-size: 40px;
+}
+
+.paciente input {
+    border-radius: 5px;
+    width: 250px;
+    font-size: 20px;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 25px;
+    font-size: 25px;
+    border: none;
+    background-color: rgb(255, 255, 0);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color:rgb(236, 236, 47) ;
+}
+
+.feedback {
+    background-color: white;
+    height: 300px;
+    width: 100%;
+    margin-top: 50px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.521);
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
